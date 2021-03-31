@@ -5,7 +5,7 @@ const icon = document.querySelector("#weathericon");
 
 const weatherSearch = (location) => {
   message.textContent = 'Loading...'
-  fetch(`http://localhost:3001/weather?address=
+  fetch(`/weather?address=
 ${location}`).then((response) =>
     response.json().then((data) => {
       if (!data.forecast) {
