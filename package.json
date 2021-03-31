@@ -15,6 +15,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
-    "postman-request": "*"
+    "postman-request": "^2.88.1-postman.29"
   }
 }
